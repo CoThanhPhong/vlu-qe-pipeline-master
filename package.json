@@ -1,0 +1,13 @@
+{
+  "name": "auth-testing",
+  "version": "1.0.0",
+  "description": "Smoke and Regression tests for authentication",
+  "main": "auth.js",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js --runInBand",
+    "test:regression": "jest auth.regression.test.js --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
